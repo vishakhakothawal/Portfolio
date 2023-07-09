@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    background-color: black;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight:  bold;
+    color: white;
+    margin:20px;
+    cursor: pointer;
+    
+    }
+
+.header{
+    width:100%;
+    height:100 px;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+li a{
+    font-family: 'Poppins', sans-serif;
+    font-weight:  bold;
+    color: white; 
+    
+   text-decoration: none;
+ 
+
+}
+ul li{
+    display :inline-block;
+    padding-left:  15px;
+   padding-right: 15px;
+   padding: top 50px;
+   text-align: center;
+   margin-top: 30px;
+}
+a:hover{
+    background-color:#ff3383;
+}
+
+#h{
+    margin-top: 170px;
+    margin-left: 30px;
+    font-family: "Poppins";
+    font-weight: 100;
+    font-size: 35px;
+    color: white;
+    padding-left: 70px;
+    word-spacing: 1.5px;
+    text-align: justify;
+
+}
+#p{
+    color: white;
+    font-family: "Poppins";
+    padding-left: 150px;
+    font-weight: 100;
+    word-spacing: 2px;
+    padding-top: 50px;
+  
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+#d{
+    background-image: url("Snapchat-2107107899.jpg");
+    height: 500px;
+    width:45%;
+    float:right;
+    margin-left: 140px;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+  
+}
+#btn{
+    background-color: #ff3383;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    color: white;
+    margin-left: 190px;
+    height: 50px;
+    width: 25%;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#h1{
+    font-family: "Poppins";
+    font-weight: 100;
+    font-size: 35px;
+    color: white;
+    padding-left: 40px;
+    word-spacing: 1.5px;
+
+}
+.container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+
+.container>div{
+
+    box-shadow: 13px 10px 5px 12px #ff3383;
+    height: 250px;
+    width: 300px;
+    margin-left: 15px;
+    align-items: center;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+#wp{
+    color: white;
+    font-family: "Poppins";
+    font-weight: 100;
+    word-spacing: 2px;
+    padding: 10px;
+}
+#pa{
+    margin-left: 70px;
+    word-spacing: 3px;
+}
